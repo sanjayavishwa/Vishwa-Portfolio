@@ -82,10 +82,10 @@ const Hero = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="lg:w-1/2 w-full max-w-md lg:max-w-lg flex justify-center relative"
+                        <div className="lg:w-1/2 w-full max-w-7xl lg:max-w-3xl flex justify-center relative"
                             data-aos="fade-left">
                                 <div className='relative'>
-                                    <img src={Portfolio1} alt="Portfolio1" className="w-full lg:w-7xl h-auto object-cover 
+                                    <img src={Portfolio1} alt="Portfolio1" className="w-full lg:w-7xl h-full object-cover 
                                     transform hover:scale-105 transition
                                     duration-500" />
 
