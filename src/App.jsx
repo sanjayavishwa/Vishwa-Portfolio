@@ -4,6 +4,8 @@ import 'aos/dist/aos.css'
 import Navbar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -40,6 +42,8 @@ return(
     <Navbar darkMode={darkMode} toggleDarkMode={toggleDark}/>
     <Hero darkMode={darkMode} />
     <About darkMode={darkMode}/>
+    <Contact darkMode={darkMode}/>
+    <Footer />
     
     
   </div>

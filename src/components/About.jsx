@@ -10,7 +10,7 @@ const About = () => {
     ]
     return (
         <section id='about' className="min-h-screen flex items-center py-20 px-4 sm:px-6 overflow-hidden">
-            <div clasName='max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 items-center gap-6'>
+            <div className='max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 items-center gap-6'>
             <div
                 className="relative order-2 lg:order-1"
                     data-aos='fade-right'>
