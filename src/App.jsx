@@ -6,6 +6,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 
 const App = () => {
@@ -42,6 +44,8 @@ return(
     <Navbar darkMode={darkMode} toggleDarkMode={toggleDark}/>
     <Hero darkMode={darkMode} />
     <About darkMode={darkMode}/>
+    <Skills/>
+    <Projects />
     <Contact darkMode={darkMode}/>
     <Footer />
     
